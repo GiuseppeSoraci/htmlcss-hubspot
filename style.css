@@ -86,7 +86,7 @@ p {
 }
 
 .btn-white {
-    background: white;
+    background: #ffffff;
     border: 1px solid  #fe775a;
     color: #fe775a;
 }
@@ -110,6 +110,15 @@ p {
 .btn-10mrgn {
     margin-left: 10px;
     margin-right: 10px;
+}
+
+.btn-blue {
+    background: #ffffff;
+    border: 1px solid  #ffffff;
+    color: #425768;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 15px
 }
 
 /*MAIN HEADER*/
@@ -424,7 +433,7 @@ header .nav-top {
 /* TABLE SECTION */
 .macro-tablesection-container {
     background-color: #00b5ad;
-    background: linear-gradient(0.25turn, #00b5ad, #00b6ad, #00bba7);
+    background: linear-gradient(0.25turn, #00b6ad, #00bba7, #00b5ad);
     height: 650px;
 }
 
@@ -520,8 +529,8 @@ header .nav-top {
 
 /* Table-brand */
 .table-brand {
-    width: 700px;
-    height: 130px;
+    width: 600px;
+    height: 150px;
     text-align: center;
     padding-top: 30px;
 }
@@ -557,6 +566,85 @@ header .nav-top {
 .woman {
     width: 40%;
     padding-left: 10%;
+}
+
+/* FOOTER */
+footer {
+    height: 600px;
+    background: #32495b;
+    color: #ffffff
+} 
+
+.footer-container {
+    width: 1200px;
+    margin: auto;
+}
+
+.col-left,
+.col-center-lft,
+.col-center-rgt,
+.col-right {
+    width: 25%;
+    float: left;
+}
+
+.footer-columns ul li{
+    padding-top: 20px;
+    list-style: none;
+}
+
+.footer-columns li a{  
+    color: #cbd6e2;
+    text-decoration: none;
+}
+
+.footer-columns a:hover {
+    cursor: pointer;
+    color: black;
+}
+
+.footer-columns h3 {
+    margin-top: 40px;
+    margin-bottom: 10px;
+    color: #ffffff
+}
+
+.social-icons i{
+    width: 13%;
+    color: #ffffff
+}
+
+/* footer-languages */
+.footer-languages {
+    padding-top: 50px;
+    text-align: center;
+}
+
+.footer-languages span {
+    padding: 10px;
+}
+
+.footer-languages hr {
+    margin-top: 20px;
+}
+
+/* footer-logo */
+.footer-logo {
+    margin-top: 40px;
+}
+
+.footer-logo span{
+    display: block;
+    margin-top: 10px;
+}
+
+.footer-policy {
+    margin-top: 40px;
+}
+
+
+.footer-policy > span{
+    padding: 10px;
 }
 
 
