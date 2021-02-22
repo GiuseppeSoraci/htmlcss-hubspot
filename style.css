@@ -47,6 +47,16 @@ p {
     max-height: 100px;
 }
 
+.img-w120 {
+    max-width: 120px;
+    max-height: 100px;
+}
+
+.img-w400 {
+    max-width: 400px;
+    max-height: 400px;
+}
+
 /* Menù */
 .menu-inline li {
    display: inline-block;
@@ -65,8 +75,8 @@ p {
     color: #fff;
     border: 1px solid #fff;
     border-radius: 5px;
-    margin-left: 10px;
-    margin-right: 10px;
+    /* margin-left: 10px; */
+    /* margin-right: 10px; */
 }
 
 
@@ -97,11 +107,10 @@ p {
     margin-bottom: 20px;
 }
 
-.btn-block {
-    display: block;
+.btn-10mrgn {
+    margin-left: 10px;
+    margin-right: 10px;
 }
-
-
 
 /*MAIN HEADER*/
 .main-header {
@@ -192,7 +201,6 @@ header .nav-top {
 /* MAIN */
 
 /* JUMBOTRON */
-/* main .jumbotron { */
 
 .jumbotron {
     height: 500px;
@@ -228,7 +236,6 @@ header .nav-top {
 .jumbotron .jumbotron-text p:last-child {
     font-size: 14px;
 }
-
 
 /* JUMBOTRON-BOTTOM */
 .jumbotron-bottom {
@@ -417,7 +424,7 @@ header .nav-top {
 /* TABLE SECTION */
 .macro-tablesection-container {
     background-color: #00b5ad;
-    background: linear-gradient(0.25turn, #00b5ad, #00bba7);
+    background: linear-gradient(0.25turn, #00b5ad, #00b6ad, #00bba7);
     height: 650px;
 }
 
@@ -433,9 +440,11 @@ header .nav-top {
 }
 
 .tablesection-text h2 {
-    font-size: 35px;
+    margin: auto;
+    font-size: 30px;
     line-height: 40px;
-    margin-bottom: 20px ;
+    margin-bottom: 20px;
+    width: 1100px;
 }
 
 .tablesection-text p {
@@ -487,6 +496,69 @@ header .nav-top {
 .homepage .td-nobordlft {
     border-left: none;
 }
+
+/* BRAND-SECTION */
+.brand-section {
+    width: 1000px;
+    height: 200px;
+    margin: auto;
+}
+
+/* Brand-section-text */
+.brand-section-text {
+    width: 18%;
+    padding-top: 30px;
+}
+
+.brand-section-text:first-child {
+    font-size: 30px;
+}
+
+.brand-section p {
+    margin-top: 20px;
+}
+
+/* Table-brand */
+.table-brand {
+    width: 700px;
+    height: 130px;
+    text-align: center;
+    padding-top: 30px;
+}
+
+/* PREFOOTER-SECTION */
+.prefooter-section {
+    width: 1200px;
+    height: 450px;
+    margin: auto;
+}
+
+.prefooter-text {
+    width: 44%;
+    padding-right: 6%;
+    margin-top: 50px;
+}
+
+.prefooter-text h2 {
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+
+.prefooter-text p {
+    line-height: 25px;
+    padding-bottom: 20px;
+}
+
+.prefooter-text p:last-child {
+    margin-top: 20px;
+    font-size: 13px;
+}
+
+.woman {
+    width: 40%;
+    padding-left: 10%;
+}
+
 
 
 
