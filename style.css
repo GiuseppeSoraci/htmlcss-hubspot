@@ -127,10 +127,8 @@ ul li a:hover {
     background: #ffffff;
     border: 1px solid  #fe775a;
     color: #fe775a;
-}
-
-.btn:hover {
-    cursor: pointer;
+    margin-right: 15px;
+    margin-left: 10px;
 }
 
 
@@ -152,6 +150,10 @@ ul li a:hover {
     margin-top: 20px;
     margin-bottom: 20px;
     font-size: 15px
+}
+
+.btn:hover {
+    cursor: pointer;
 }
 
 /* HEADER */
@@ -186,6 +188,7 @@ ul li a:hover {
     font-size: 15px;
     border: none;
     color: #817f7f;
+    font-family: 'Montserrat';
 }
 
 .nav a {
@@ -213,7 +216,7 @@ ul li a:hover {
 
 #Languages {
     background: transparent;
-    width: 75px;
+    width: 80px;
 }
 
 header .nav-top {
@@ -235,7 +238,7 @@ header .nav-top {
 /* JUMBOTRON */
 
 .jumbotron {
-    height: 500px;
+    height: 530px;
     background: #fff3ef;
     background-image: url(img/jumbotron.png);
     background-size: 1200px 700px;
@@ -263,7 +266,8 @@ header .nav-top {
 }
 
 .jumbotron .jumbotron-text p {
-    padding: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .jumbotron .jumbotron-text p:last-child {
@@ -394,6 +398,7 @@ header .nav-top {
 
 .columns > .col { 
     width: 30%;  
+    height: 680px;
     float: left;
     background-color: #ffffff;
     border-radius: 5px;
@@ -425,7 +430,6 @@ header .nav-top {
     line-height: 30px;
     padding-left: 30px;
     padding-right: 30px;
-    font-size: 17px;
 }
 
 .col h2, 
