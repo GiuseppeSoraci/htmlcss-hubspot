@@ -6,7 +6,7 @@
 }
 
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
     font-size: 16px;
 }
 
@@ -138,16 +138,11 @@ ul li a:hover {
     background: #fe775a;
     border: 1px solid transparent;
     padding: 20px;
-    padding-left: 40px;
-    padding-right: 40px;
+    padding-left: 30px;
+    padding-right: 30px;
     font-size: 15px;
     margin-top: 20px;
     margin-bottom: 20px;
-}
-
-.btn-10mrgn {
-    margin-left: 10px;
-    margin-right: 10px;
 }
 
 .btn-blue {
@@ -159,7 +154,7 @@ ul li a:hover {
     font-size: 15px
 }
 
-/*MAIN HEADER*/
+/* HEADER */
 .main-header {
     line-height: 80px;
 }
@@ -168,14 +163,14 @@ ul li a:hover {
     margin: auto;
 }
 
-.main-header .logo {
-    width: 10%;
-}
-
+/* Logo */
 .main-header .logo img {
     vertical-align: middle;
 }
 
+/* NAV BOTTOM */
+
+/* Nav */
 .main-header .nav {
     height: 80px;
     width: 1200px;
@@ -254,6 +249,7 @@ header .nav-top {
     width: 80%;
 }
 
+/* Jumbotron Text */
 .jumbotron .jumbotron-text {
     position: absolute;
     left: 12%;
@@ -263,7 +259,7 @@ header .nav-top {
 
 .jumbotron .jumbotron-text h1 {
     font-size: 50px;
-    padding: 10px;
+    padding-bottom: 10px;
 }
 
 .jumbotron .jumbotron-text p {
@@ -274,7 +270,7 @@ header .nav-top {
     font-size: 14px;
 }
 
-/* JUMBOTRON-BOTTOM */
+/* Jumbotron Bottom */
 .jumbotron-bottom {
     background: #afebe4;
     height: 100px;
@@ -282,7 +278,7 @@ header .nav-top {
     border-top: 3px solid #33475b;
 }
 
-/* FIRST SECTION */
+/* MAIN SECTION */
 .macro-section-container {
     background: #f4f9fd;
     padding-bottom: 50px;
@@ -460,6 +456,7 @@ header .nav-top {
     height: 650px;
 }
 
+/* Table Section Text */
 .tablesection-text {
     width: 1200px;
     margin: auto;
@@ -603,6 +600,7 @@ footer {
     margin: auto;
 }
 
+/* Link Section */
 .col-left,
 .col-center-lft,
 .col-center-rgt,
@@ -630,7 +628,7 @@ footer {
     color: #ffffff
 }
 
-/* footer-languages */
+/* Footer Languages */
 .footer-languages {
     padding-top: 50px;
     text-align: center;
@@ -645,7 +643,7 @@ footer {
     margin-top: 20px;
 }
 
-/* footer-logo */
+/* Copyright */
 .footer-logo {
     margin-top: 40px;
 }
