@@ -38,6 +38,46 @@ p {
     float: right;
 }
 
+ul li {
+    list-style: none;
+}
+
+/* Hover */
+
+a {   
+    text-decoration: none;
+}
+ 
+a:hover {
+    cursor: pointer;
+    color: #fe775a;
+}
+
+a i:hover {
+    color: #fe775a;  
+}
+
+a span:hover {
+    color: #fe775a;  
+}
+
+select:hover {
+    cursor: pointer;
+    color: black;
+}
+
+ul li a:hover {
+    cursor: pointer;
+    color: #fe775a; 
+}
+
+.help:hover {
+    cursor: pointer;
+    color: rgb(29, 209, 12);
+}
+
+/* Size img */
+
 .w-50 {
     width: 50%;
 }
@@ -61,7 +101,7 @@ p {
 .menu-inline li {
    display: inline-block;
    list-style: none;
-   margin-right: 20px; 
+   margin-left: 20px; 
 }
 
 
@@ -75,8 +115,6 @@ p {
     color: #fff;
     border: 1px solid #fff;
     border-radius: 5px;
-    /* margin-left: 10px; */
-    /* margin-right: 10px; */
 }
 
 
@@ -155,20 +193,10 @@ p {
     color: #817f7f;
 }
 
-.nav select:hover {
-    cursor: pointer;
-    color: black;
-}
-
 .nav a {
     font-size: 15px;
     text-decoration: none;
     color: #817f7f;
-}
-
-.nav a:hover {
-    cursor: pointer;
-    color: black;
 }
 
 .menu-inline > select {
@@ -330,12 +358,10 @@ header .nav-top {
 }
 
 .Free-Hubspot ul li {
-    font-size: 15px;
     color: #fe775a;
     display: inline-block;
     padding-top: 30px;
-    padding-right: 20px;
-    list-style: none;
+    padding-left: 20px;
 }
 
 .Free-Hubspot span {
@@ -387,13 +413,11 @@ header .nav-top {
 }
 
 .columns ul {
-    font-size: 15px;
     color: #fe775a;
     text-align: left;
     padding-left: 30px;
     padding-right: 30px;
     padding-bottom: 30px;
-    list-style: none;
 }
 
 .col img {
@@ -414,7 +438,7 @@ header .nav-top {
 }
 
 .col .btn {
-    margin-bottom: 2%;
+    margin-bottom: 30px;
 }
 
 .columns span {
@@ -432,8 +456,7 @@ header .nav-top {
 
 /* TABLE SECTION */
 .macro-tablesection-container {
-    background-color: #00b5ad;
-    background: linear-gradient(0.25turn, #00b6ad, #00bba7, #00b5ad);
+    background: linear-gradient(0.25turn, #00b8ab, #00bba7, #00b5ad);
     height: 650px;
 }
 
@@ -590,17 +613,10 @@ footer {
 
 .footer-columns ul li{
     padding-top: 20px;
-    list-style: none;
 }
 
 .footer-columns li a{  
     color: #cbd6e2;
-    text-decoration: none;
-}
-
-.footer-columns a:hover {
-    cursor: pointer;
-    color: black;
 }
 
 .footer-columns h3 {
@@ -620,8 +636,9 @@ footer {
     text-align: center;
 }
 
-.footer-languages span {
+.footer-languages a {
     padding: 10px;
+    color: #ffffff;
 }
 
 .footer-languages hr {
@@ -643,8 +660,16 @@ footer {
 }
 
 
-.footer-policy > span{
+.footer-policy > a {
     padding: 10px;
+    color: #ffffff;
+}
+
+.help {
+    position: fixed;
+    bottom: 15px;       
+    font-size: 45px;
+    color: #fe775a;
 }
 
 
