@@ -26,14 +26,18 @@
 
                             <!-- Languages and Contacts Navigation -->
                             <div class="lang-contact float-left"><i class="fas fa-globe-europe"></i>
-                                <select name="Languages" id="Languages">
-                                    <option value="English">English</option>
-                                    <option value="Deutsch">Deutsch</option>
-                                    <option value="日本語">日本語</option>
-                                    <option value="Español">Español</option>
-                                    <option value="Português">Português</option>
-                                    <option value="Boolean">Français</option>
-                                </select>
+                              <div class="dropdown">
+                                <span class="droptitle nav-lang">English</span>
+                                <i class="fas fa-angle-down drop-lang"></i>
+                                <div class="dropdown-content">
+                                  <a href="#">Deutsch</a>
+                                  <a href="#">日本語</a>
+                                  <a href="#">Español</a>
+                                  <a href="#">Português</a>
+                                  <a href="#">Español</a>
+                                  <a href="#">Français</a>
+                                </div>
+                            </div>    
                                 <a class="Contacts" href="#">
                                     Contact Us
                                 </a>
@@ -63,27 +67,50 @@
                         <!-- Menu-Inline -->
                         <ul class="menu-inline float-right">
                             <li>
-                                <select name="Software" id="Software">
-                                    <option value="Software">Software</option>
-                                </select>
+                                <div class="dropdown">
+                                    <span class="droptitle">Software</span>
+                                    <i class="fas fa-angle-down"></i>
+                                    <div class="dropdown-content">
+                                      <a href="#">Software1</a>
+                                      <a href="#">Software2</a>
+                                      <a href="#">Software3</a>
+                                    </div>
+                                </div>    
                             </li>
                             <li>
                                 <a href="#">Pricing</a>
                             </li>
                             <li>
-                                <select name="Resources" id="Resources">
-                                    <option value="Resources">Resources</option>
-                                </select>
+                                <div class="dropdown">
+                                    <span class="droptitle">Resources</span>
+                                    <i class="fas fa-angle-down"></i>
+                                    <div class="dropdown-content">
+                                      <a href="#">Resource1</a>
+                                      <a href="#">Resource2</a>
+                                      <a href="#">Resource3</a>
+                                    </div>
+                                </div>                                 
                             </li>
                             <li>
-                                <select name="Partners" id="Partners">
-                                    <option value="Partners">Partners</option>
-                                </select></a>
+                                <div class="dropdown">
+                                    <span class="droptitle">Partners</span>
+                                    <i class="fas fa-angle-down"></i>
+                                    <div class="dropdown-content">
+                                      <a href="#">Partner1</a>
+                                      <a href="#">Partner2</a>
+                                      <a href="#">Partner3</a>
+                                    </div>
+                                </div>   
                             </li>
                             <li>
-                                <select name="About" id="About">
-                                    <option value="About">About</option>
-                                </select>
+                                <div class="dropdown">
+                                    <span class="droptitle">About</span>
+                                    <i class="fas fa-angle-down"></i>
+                                    <div class="dropdown-content">
+                                      <a href="#">About1</a>
+                                      <a href="#">About2</a>
+                                      <a href="#">About3</a>
+                                </div>                                                                
                             </li>
                         </ul>
                     </nav>
@@ -461,7 +488,7 @@
                         <hr>
                     </div>
 
-                    <!-- Copyright -->
+                    <!-- Copyright and Policy -->
                     <div class="footer-logo float-left">
                         <img src="img/hubspot-logo-footer.svg" alt="logo-footer">
                         <span>Copyright <i class="far fa-copyright"> 2019, HubSpot Inc.</i></span>
